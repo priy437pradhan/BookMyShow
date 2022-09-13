@@ -9,6 +9,9 @@
         sans-serif;
     overflow-x: hidden;
 }
+body{
+    background-color: #F5F5F5;
+}
 
 .nav_container {
     height: 100px;
@@ -20,7 +23,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #333545;
+    background-color:#2C2D3B;
     align-items: center;
 }
 
@@ -35,6 +38,7 @@
     font-size: 14px;
     letter-spacing: normal;
     text-align: start;
+    margin: 0 20px;
 
 }
 
@@ -45,18 +49,21 @@
     background-color: #f84464;
     border: none;
     border-radius: 4px;
+    margin-right: 10px;
 
 }
 
+
+
 .main_navbar .left {
     display: flex;
-    justify-content: space-between;
     padding: 0 0 0 51px;
 }
 
 .main_navbar img {
     height: 40px;
     width: 90px;
+    margin: 0 10px;
 }
 
 .main_navbar input {
@@ -101,6 +108,12 @@
     padding: 0 51px 0 0;
     justify-content: space-between;
 }
+.white_background{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -118,8 +131,12 @@ h1 {
     text-align: start;
     letter-spacing: normal;
     color: #333333;
-    margin: 32px 0 8px 51px;
+    margin: 32px 0 10px 51px;
 }
+
+
+
+
 
 .card_class,
 .online_event
@@ -155,18 +172,29 @@ h1 {
     margin: 4px 0 0 0;
 }
 
+
+
+
+
+
 .stream {
     height: 220px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#F2F2F2;
 }
 
 .stream img {
     height: 98px;
     width: 1177px;
 }
+
+
+
+
+
 
 .Entertainment {
     height: 341px;
@@ -189,6 +217,7 @@ h1 {
     width: 209px;
 }
 
+
 .premiere {
     background-color: #2B3149;
     display: flex;
@@ -196,7 +225,7 @@ h1 {
 }
 
 .premiere .card {
-    height: 170px;
+    height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -208,7 +237,7 @@ h1 {
 .premiere .card img {
     height: 98px;
     width: 1177px;
-    margin-left: 51px;
+    margin: 20px 0 0 51px;
 
 }
 .premiere h1 {
@@ -227,37 +256,18 @@ h1 {
     margin: 0 0 8px 51px;
 
 }
-
-.Premieres {
+.this_class{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 490px;
-    width: 1177px;
-    margin: 51px;
-
-
+    margin: 0 0 0 51px;
 }
-.Premieres .card{
-    
-    height: 402px;
-    width: 1177px;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
+.premieres{
+    width: 100%;
+        display: flex;
+    background-color: #2B3149;
 }
 
 
-.Premieres .card img{
-    height: 314px;
-    width: 209px;
-    margin: 0 32px 12px 0;
-    border-radius: 10px;
-
-}
-
-
-.Premieres .card h2 {
+.premieres .card h2 {
     font-size: 18px;
     text-align: start;
     letter-spacing: normal;
@@ -265,16 +275,21 @@ h1 {
     
 
 
-}
+} 
 
-.Premieres .card p {
+.premieres .card p {
     font-size: 16px;
     text-align: start;
     letter-spacing: normal;
     color: #fff;
+    margin:10px 0  15px 0 ;
 
 
-}
+} 
+
+
+
+
 .trending{
     height: 118px;
     width: 1177px;
@@ -286,7 +301,7 @@ h1 {
     background-color: #fff;
     height:fit-content;
     width:fit-content;
-    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
     padding: 1% 2%;
     margin: 2%;
 
@@ -307,6 +322,21 @@ h1 {
     letter-spacing: normal;
     color:#666666;
 
+
+}
+.home{
+    height:40px;
+    width: 100%;
+    background-color: #fff;
+    margin:20px 0;
+    
+}
+
+.home p{
+    color: #aaabac;
+    font-size: 12px;
+    margin: 12px 0 0 30px;
+    letter-spacing: normal;
 
 }
 
