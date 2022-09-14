@@ -60,17 +60,19 @@ body{
     padding: 0 0 0 51px;
 }
 
-.main_navbar img {
-    height: 40px;
-    width: 90px;
-    margin: 0 10px;
-}
+
 
 .main_navbar input {
     height: 35px;
     width: 550px;
+    margin: 0 0 0 20px;
+    font-size: 16px;
+    letter-spacing: normal;
+    text-align: start;
+    padding: 0 20px;
 
 }
+
 
 
 
@@ -113,6 +115,20 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.headings{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headings p{
+    color:#f84464;
+    font-size: 12px;
+    padding-right: 30px;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
 }
 
 
